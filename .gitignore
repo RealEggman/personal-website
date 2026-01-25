@@ -1,22 +1,11 @@
-# --- Operating System Files (Junk) ---
+# Operating System files
 .DS_Store
 Thumbs.db
-*.swp
 
-# --- Editor Settings (Personal preferences) ---
-# It's good practice not to force your editor settings on others
+# Editor directories (VS Code, JetBrains, etc.)
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# --- Javascript/Node (For when you get there) ---
+# If you use Node/NPM later for tools
 node_modules/
-npm-debug.log
-yarn-debug.log
-
-# --- Docker & Environment Variables ---
-# Never commit secrets or huge logs!
-.env
-docker-compose.override.yml
-*.log
+dist/
